@@ -24,10 +24,10 @@ Since all other elements appear exactly twice, their XOR will evaluate to `0`. T
 ## 🔄 Flowchart
 ```mermaid
 graph TD;
-    A[Start] --> B[Initialize result = 0]
-    B --> C{More items in array?}
-    C -->|Yes| D[result = result ^ element]
-    C -->|No| E[Return result]
+    A[Start] --> B["Initialize result = 0"]
+    B --> C{"More items in array?"}
+    C -->|Yes| D["result = result ^ element"]
+    C -->|No| E["Return result"]
     D --> C
     E --> F[End]
 ```

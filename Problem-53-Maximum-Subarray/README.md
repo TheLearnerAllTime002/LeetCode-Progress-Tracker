@@ -23,13 +23,13 @@ We use **Kadane’s Algorithm**:
 ## 🔄 Flowchart
 ```mermaid
 graph TD;
-    A[Start] --> B[Init currentSum = 0, maxSum = INT_MIN]
+    A[Start] --> B["Init currentSum = 0, maxSum = INT_MIN"]
     B --> C{More items in array?}
-    C -->|Yes| D[currentSum += element]
+    C -->|Yes| D["currentSum += element"]
     C -->|No| I[Return maxSum]
-    D --> E[maxSum = max(maxSum, currentSum)]
-    E --> F{currentSum < 0?}
-    F -->|Yes| G[currentSum = 0]
+    D --> E["maxSum = max(maxSum, currentSum)"]
+    E --> F{"currentSum < 0?"}
+    F -->|Yes| G["currentSum = 0"]
     F -->|No| H[Continue]
     G --> C
     H --> C
