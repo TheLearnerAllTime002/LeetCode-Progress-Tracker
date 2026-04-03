@@ -40,14 +40,6 @@ pie title Problems Solved by Difficulty
 | **Apr 03, 2026** | 02 | [53. Maximum Subarray](./Problem-53-Maximum-Subarray) | <img src="https://img.shields.io/badge/Medium-orange?style=flat-square" /> | Kadane’s Algorithm, DP | ✅ |
 | **Apr 02, 2026** | 01 | [136. Single Number](./Problem-136-Single-Number) | <img src="https://img.shields.io/badge/Easy-brightgreen?style=flat-square" /> | Bit Manipulation (XOR) | ✅ |
 
----
-
-## 💡 How to Update Your Progress
-Whenever you solve a new problem, follow these quick steps:
-1. **Create a Folder:** e.g., `Problem-1-Two-Sum`.
-2. **Add Files:** Put your complete `solution.cpp` and a detailed `README.md` with the problem details inside the new folder.
-3. **Log it:** Copy an existing row in the table above, paste it at the top of the table, and change the date, problem link, and tags.
-4. **Update Stats (Optional):** Update the number in the `Problems Solved` badge at the top and adjust the numbers in the `Progress Overview` pie chart.
 
 ---
 <div align="center">
