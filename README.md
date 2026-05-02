@@ -11,8 +11,8 @@
 <div align="center">
 
   [![Language](https://img.shields.io/badge/Language-C++-%2300599C?style=for-the-badge&logo=c%2B%2B)](https://cplusplus.com/)
-  [![Problems Solved](https://img.shields.io/badge/Problems%20Solved-2-brightgreen?style=for-the-badge&logo=leetcode)](#)
-  [![Current Streak](https://img.shields.io/badge/Current%20Streak-2%20Days-orange?style=for-the-badge&logo=target)](#)
+  [![Problems Solved](https://img.shields.io/badge/Problems%20Solved-11-brightgreen?style=for-the-badge&logo=leetcode)](#)
+  [![Current Streak](https://img.shields.io/badge/Current%20Streak-11%20Problems-orange?style=for-the-badge&logo=target)](#)
 
 </div>
 
@@ -24,8 +24,8 @@ Here is a visual breakdown of the problems solved so far based on difficulty.
 
 ```mermaid
 pie title Problems Solved by Difficulty
-    "Easy" : 1
-    "Medium" : 1
+    "Easy" : 5
+    "Medium" : 6
     "Hard" : 0
 ```
 
@@ -35,10 +35,19 @@ pie title Problems Solved by Difficulty
 
 **Tip for future updates:** Always add your newest problem to the **top** of the table below so you don't have to scroll down as the list grows!
 
-| Date | Day | Problem | Difficulty | Approach / Concepts Used | Status |
-| :---: | :---: | :--- | :---: | :--- | :---: |
-| **Apr 03, 2026** | 02 | [53. Maximum Subarray](./Problem-53-Maximum-Subarray) | <img src="https://img.shields.io/badge/Medium-orange?style=flat-square" /> | Kadane’s Algorithm, DP | ✅ |
-| **Apr 02, 2026** | 01 | [136. Single Number](./Problem-136-Single-Number) | <img src="https://img.shields.io/badge/Easy-brightgreen?style=flat-square" /> | Bit Manipulation (XOR) | ✅ |
+| Date | Problem | Difficulty | Approach / Concepts Used | Status |
+| :---: | :--- | :---: | :--- | :---: |
+| **May 02, 2026** | [3227. Find Missing and Repeated Values](./3227-find-missing-and-repeated-values) | <img src="https://img.shields.io/badge/Easy-brightgreen?style=flat-square" /> | Array Manipulation, Hashing | ✅ |
+| **May 02, 2026** | [2021. Remove All Occurrences of a Substring](./2021-remove-all-occurrences-of-a-substring) | <img src="https://img.shields.io/badge/Medium-orange?style=flat-square" /> | Stack, String Manipulation | ✅ |
+| **May 02, 2026** | [88. Merge Sorted Array](./88-merge-sorted-array) | <img src="https://img.shields.io/badge/Easy-brightgreen?style=flat-square" /> | Two Pointers, Array Merging | ✅ |
+| **May 02, 2026** | [75. Sort Colors](./75-sort-colors) | <img src="https://img.shields.io/badge/Medium-orange?style=flat-square" /> | Three-way Partitioning, Dutch National Flag | ✅ |
+| **May 02, 2026** | [169. Majority Element](./169-majority-element) | <img src="https://img.shields.io/badge/Easy-brightgreen?style=flat-square" /> | Boyer-Moore Voting Algorithm | ✅ |
+| **May 02, 2026** | [151. Reverse Words in a String](./151-reverse-words-in-a-string) | <img src="https://img.shields.io/badge/Medium-orange?style=flat-square" /> | String Manipulation, Two Pointers | ✅ |
+| **May 02, 2026** | [50. Pow(x, n)](./50-powx-n) | <img src="https://img.shields.io/badge/Medium-orange?style=flat-square" /> | Binary Exponentiation, Recursion | ✅ |
+| **May 02, 2026** | [125. Valid Palindrome](./125-valid-palindrome) | <img src="https://img.shields.io/badge/Easy-brightgreen?style=flat-square" /> | Two Pointers, String Validation | ✅ |
+| **May 02, 2026** | [11. Container With Most Water](./11-container-with-most-water) | <img src="https://img.shields.io/badge/Medium-orange?style=flat-square" /> | Two Pointers, Greedy Algorithm | ✅ |
+| **Apr 03, 2026** | [53. Maximum Subarray](./Problem-53-Maximum-Subarray) | <img src="https://img.shields.io/badge/Medium-orange?style=flat-square" /> | Kadane's Algorithm, DP | ✅ |
+| **Apr 02, 2026** | [136. Single Number](./Problem-136-Single-Number) | <img src="https://img.shields.io/badge/Easy-brightgreen?style=flat-square" /> | Bit Manipulation (XOR) | ✅ |
 
 
 ---
