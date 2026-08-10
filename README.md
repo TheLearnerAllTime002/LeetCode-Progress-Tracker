@@ -37,7 +37,7 @@ pie title Problems Solved by Difficulty
 
 | Date | Problem | Difficulty | Approach / Concepts Used | Status |
 | :---: | :--- | :---: | :--- | :---: |
-| **May 02, 2026** | [3227. Find Missing and Repeated Values](./3227-find-missing-and-repeated-values) | <img src="https://img.shields.io/badge/Easy-brightgreen?style=flat-square" /> | Array Manipulation, Hashing | ✅ |
+| **May 03, 2026** | [3227. Find Missing and Repeated Values](./3227-find-missing-and-repeated-values) | <img src="https://img.shields.io/badge/Easy-brightgreen?style=flat-square" /> | Array Manipulation, Hashing | ✅ |
 | **May 02, 2026** | [2021. Remove All Occurrences of a Substring](./2021-remove-all-occurrences-of-a-substring) | <img src="https://img.shields.io/badge/Medium-orange?style=flat-square" /> | Stack, String Manipulation | ✅ |
 | **May 02, 2026** | [88. Merge Sorted Array](./88-merge-sorted-array) | <img src="https://img.shields.io/badge/Easy-brightgreen?style=flat-square" /> | Two Pointers, Array Merging | ✅ |
 | **May 02, 2026** | [75. Sort Colors](./75-sort-colors) | <img src="https://img.shields.io/badge/Medium-orange?style=flat-square" /> | Three-way Partitioning, Dutch National Flag | ✅ |
