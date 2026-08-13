@@ -1,6 +1,6 @@
 # 📝 70. Climbing Stairs (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/climbing-stairs/?show=1&utm_source=chatgpt.com)
+🔗 [Problem Link](https://leetcode.com/problems/climbing-stairs/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Math, Dynamic Programming, Memoization
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 0 ms
+- **Memory:** 42.3 MB
 
 ---
 
