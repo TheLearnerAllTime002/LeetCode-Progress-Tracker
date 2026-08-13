@@ -1,6 +1,6 @@
 # 📝 70. Climbing Stairs (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/climbing-stairs/?show=1&utm_source=chatgpt.com)
+🔗 [Problem Link](https://leetcode.com/problems/climbing-stairs/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
