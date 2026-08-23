@@ -1,8 +1,6 @@
 class Solution {
     public boolean sumGame(String num) {
-
         int n = num.length();
-        int half = n / 2;
 
         int leftSum = 0;
         int rightSum = 0;
@@ -10,7 +8,8 @@ class Solution {
         int leftQ = 0;
         int rightQ = 0;
 
-        for (int i = 0; i < half; i++) {
+        // First half
+        for (int i = 0; i < n / 2; i++) {
             char c = num.charAt(i);
 
             if (c == '?') {
@@ -20,7 +19,8 @@ class Solution {
             }
         }
 
-        for (int i = half; i < n; i++) {
+        // Second half
+        for (int i = n / 2; i < n; i++) {
             char c = num.charAt(i);
 
             if (c == '?') {
@@ -30,15 +30,15 @@ class Solution {
             }
         }
 
-        int diff = Math.abs(leftSum - rightSum);
-        int qDiff = Math.abs(leftQ - rightQ);
-
-        // Odd number of unmatched '?' -> Alice can force a win
-        if (qDiff % 2 == 1) {
+        // Odd number of '?' -> Alice gets the decisive advantage
+        if ((leftQ + rightQ) % 2 == 1) {
             return true;
         }
 
-        // Bob can force equality only in this exact case
-        return diff != 9 * qDiff / 2;
+        int sumDiff = leftSum - rightSum;
+        int qDiff = rightQ - leftQ;
+
+        // Bob wins only when the difference can be perfectly balanced
+        return sumDiff != 9 * qDiff / 2;
     }
 }
