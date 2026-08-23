@@ -10,7 +10,6 @@ class Solution {
         int leftQ = 0;
         int rightQ = 0;
 
-        // First half
         for (int i = 0; i < half; i++) {
             char c = num.charAt(i);
 
@@ -21,7 +20,6 @@ class Solution {
             }
         }
 
-        // Second half
         for (int i = half; i < n; i++) {
             char c = num.charAt(i);
 
@@ -35,6 +33,12 @@ class Solution {
         int diff = Math.abs(leftSum - rightSum);
         int qDiff = Math.abs(leftQ - rightQ);
 
+        // Odd number of unmatched '?' -> Alice can force a win
+        if (qDiff % 2 == 1) {
+            return true;
+        }
+
+        // Bob can force equality only in this exact case
         return diff != 9 * qDiff / 2;
     }
 }
