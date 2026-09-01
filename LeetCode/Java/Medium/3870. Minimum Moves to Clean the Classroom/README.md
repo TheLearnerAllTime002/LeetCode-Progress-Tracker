@@ -8,8 +8,8 @@
 Array, Hash Table, Bit Manipulation, Breadth-First Search, Matrix
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 1095 ms
+- **Memory:** 280.5 MB
 
 ---
 
