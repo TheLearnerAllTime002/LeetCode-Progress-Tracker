@@ -170,7 +170,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 
 ### 📂 Bit Manipulation
 - [ ] Single Number
-- [x] [Number of 1 Bits](./C++/Easy/191. Number of 1 Bits/)
+- [x] [Number of 1 Bits](./Java/Easy/191. Number of 1 Bits/)
 - [ ] Counting Bits
 - [ ] Reverse Bits
 - [ ] Missing Number
