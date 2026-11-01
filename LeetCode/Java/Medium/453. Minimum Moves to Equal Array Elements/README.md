@@ -1,6 +1,6 @@
 # 📝 453. Minimum Moves to Equal Array Elements (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/minimum-moves-to-equal-array-elements)
+🔗 [Problem Link](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
